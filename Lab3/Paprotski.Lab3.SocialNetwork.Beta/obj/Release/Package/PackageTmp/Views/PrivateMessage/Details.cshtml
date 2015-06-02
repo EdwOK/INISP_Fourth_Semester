@@ -1,0 +1,27 @@
+﻿@model Paprotski.Lab3.SocialNetwork.Beta.Models.ViewPrivateMessageViewModel
+
+@{
+    ViewBag.Title = "Сообщение";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class="col-sm-6 col-md-6">
+    <ul class="list-group">
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.SenderFullName)</strong>
+            </span>
+            @Html.DisplayFor(m => m.SenderFullName)
+        </li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.DateSent)</strong>
+            </span>
+            @Html.DisplayFor(m => m.DateSent)
+        </li>
+        <li class="list-group-item">
+            @Html.DisplayTextFor(m => m.Message)
+        </li>
+    </ul>
+</div>

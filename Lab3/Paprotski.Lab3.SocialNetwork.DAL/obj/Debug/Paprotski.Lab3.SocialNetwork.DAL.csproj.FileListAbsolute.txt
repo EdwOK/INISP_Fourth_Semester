@@ -1,0 +1,14 @@
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\Paprotski.Lab3.SocialNetwork.DAL.dll.config
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\Paprotski.Lab3.SocialNetwork.DAL.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\Paprotski.Lab3.SocialNetwork.DAL.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\EntityFramework.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\EntityFramework.xml
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\ru\EntityFramework.resources.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\obj\Debug\Paprotski.Lab3.SocialNetwork.DAL.csprojResolveAssemblyReference.cache
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\obj\Debug\Paprotski.Lab3.SocialNetwork.DAL.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\obj\Debug\Paprotski.Lab3.SocialNetwork.DAL.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\Paprotski.Lab3.SocialNetwork.Domain.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab3\Paprotski.Lab3.SocialNetwork.DAL\bin\Debug\Paprotski.Lab3.SocialNetwork.Domain.pdb

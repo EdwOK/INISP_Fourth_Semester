@@ -1,0 +1,50 @@
+﻿@model Paprotski.Lab3.SocialNetwork.Beta.Models.ProfileViewModel
+
+@{
+    ViewBag.Title = string.Concat(Model.FirstName, " ", Model.LastName);
+}
+
+<h2>@ViewBag.Title</h2>
+<hr/>
+<div class="col-sm-6 col-md-6">
+    <ul class="list-group" role="group">
+        <li class="list-group-item text-muted" contenteditable="false">Профиль</li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.FirstName)</strong>
+            </span>
+            @Html.DisplayFor(m => m.FirstName)
+        </li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.LastName)</strong>
+            </span>
+            @Html.DisplayFor(m => m.LastName)
+        </li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.Gender)</strong>
+            </span>
+            @Html.DisplayFor(m => m.Gender)
+        </li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.Birthday)</strong>
+            </span>
+            @Html.DisplayFor(m => m.Birthday)
+        </li>
+        <li class="list-group-item text-right">
+            <span class="pull-left">
+                <strong>@Html.LabelFor(m => m.Email)</strong>
+            </span>
+            @Html.DisplayFor(m => Model.Email)
+        </li>
+    </ul>
+</div>
+<div class="col-sm-6 col-md-6">
+    <div class="btn-group btn-group-vertical" role="group">
+        @Html.ActionLink("Личное сообщение", "Create", "PrivateMessage", new { id = Model.ID }, new { @class = "btn btn-success btn-profile-info" })
+        @Html.ActionLink("Добавить в друзья", "Addition", "Friends",new { id = Model.ID }, new { @class = "btn btn-success btn-profile-info" })
+        @Html.ActionLink("Друзья пользователя", "Index", "Friends", new { id = Model.ID }, new { @class = "btn btn-info btn-profile-info" })
+    </div>
+</div>

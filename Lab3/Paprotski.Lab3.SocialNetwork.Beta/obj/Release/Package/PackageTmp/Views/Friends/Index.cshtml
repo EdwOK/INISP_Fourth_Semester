@@ -1,0 +1,21 @@
+﻿@model Paprotski.Lab3.SocialNetwork.Beta.Models.FriendListViewModel
+
+@{
+    ViewBag.Title = "Друзья";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<ul class="list-group">
+    @foreach (var friend in Model.Friends)
+    {
+        <li class="list-group-item text-left">
+            @Html.ActionLink(string.Concat(friend.FirstName, " ", friend.LastName), "Index", "Profile", new { id = friend.ID }, null)
+            <label class="pull-right">
+                @Html.ActionLink(" ", "Addition", "Friends", new { id = friend.ID }, new { @class = "btn btn-success btn-xs glyphicon glyphicon glyphicon-plus" })
+                @Html.ActionLink(" ", "Create", "PrivateMessage", new { id = friend.ID }, new { @class = "btn btn-info btn-xs glyphicon glyphicon glyphicon-envelope" })
+                @Html.ActionLink(" ", "Delete", "Friends", new { id = friend.ID }, new { @class = "btn btn-danger btn-xs glyphicon glyphicon-trash" })
+            </label>
+        </li>
+    }
+</ul>

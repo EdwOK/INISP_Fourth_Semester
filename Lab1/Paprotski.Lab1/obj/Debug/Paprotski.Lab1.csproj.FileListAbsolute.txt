@@ -1,0 +1,12 @@
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.dll.config
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.csprojResolveAssemblyReference.cache
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.dll.config
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\bin\Paprotski.Lab1.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.dll
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.pdb
+D:\VS2013\Project\INISP_Fourth_Semester\Lab1\Paprotski.Lab1\obj\Debug\Paprotski.Lab1.csprojResolveAssemblyReference.cache

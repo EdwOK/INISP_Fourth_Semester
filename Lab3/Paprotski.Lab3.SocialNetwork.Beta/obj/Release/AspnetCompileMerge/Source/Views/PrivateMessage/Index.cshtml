@@ -1,0 +1,56 @@
+﻿@model Paprotski.Lab3.SocialNetwork.Beta.Models.ListPrivateMessageViewModel
+@{
+    ViewBag.Title = "Сообщения";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div class="nav nav-tabs" role="tablist">
+    <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active">
+            <a href="#received" aria-controls="received" role="tab" data-toggle="tab">Полученные</a>
+        </li>
+        <li role="presentation">
+            <a href="#sent" aria-controls="sent" role="tab" data-toggle="tab">Отправленные</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane fade" id="sent">
+            <div class="list-group message-list" role="group">
+                @foreach (var item in Model.SentPrivateMessages)
+                {
+                    var styleItem = item.IsRead ? "list-group-item" : "list-group-item list-group-item-info";
+                    <a href="@Url.Action("Details", "PrivateMessage", new { id = item.ID })" class="@styleItem">
+                        <h4 class="list-group-item-heading">
+                            <span class="glyphicon glyphicon-upload"></span>
+                            @Html.DisplayFor(modelItem => item.Sender.FirstName)
+                            @Html.DisplayFor(modelItem => item.Sender.LastName)
+                        </h4>
+                        <p class="list-group-item-text text-clip">
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </p>
+                    </a>
+                }
+            </div>
+        </div>
+        <div role="tabpanel" class="tab-pane fade in active" id="received">
+            <div class="list-group message-list" role="group">
+                @foreach (var item in Model.ReceiverPrivateMessages)
+                {
+                    var styleItem = item.IsRead ? "list-group-item" : "list-group-item list-group-item-info";
+                    <a href="@Url.Action("Details", "PrivateMessage", new { id = item.ID })" class="@styleItem">
+                        <h4 class="list-group-item-heading">
+                            <span class="glyphicon glyphicon-download"></span>
+                            @Html.DisplayFor(modelItem => item.Sender.FirstName)
+                            @Html.DisplayFor(modelItem => item.Sender.LastName)
+                        </h4>
+                        <p class="list-group-item-text text-clip">
+                            @Html.DisplayFor(modelItem => item.Message)
+                        </p>
+                    </a>
+                }
+            </div>
+        </div>
+    </div>
+</div>
